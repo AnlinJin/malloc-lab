@@ -1,25 +1,14 @@
-#####################################################################
-# CS:APP Malloc Lab
-# Handout files for students
-#
-# Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved.
-# May not be used, modified, or copied without permission.
-#
-######################################################################
+# Dynamic Memory Storage Allocator
 
 ***********
 Main Files:
 ***********
 
 mm.{c,h}	
-	Your solution malloc package. mm.c is the file that you
-	will be handing in, and is the only file you should modify.
+	This file contains the implementation of malloc, free, realloc functions
 
 mdriver.c	
-	The malloc driver that tests your mm.c file
-
-short{1,2}-bal.rep
-	Two tiny tracefiles to help you get started. 
+	The malloc driver that tests the mm.c file
 
 Makefile	
 	Builds the driver
