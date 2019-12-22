@@ -2,7 +2,7 @@
 
 ## Main Files:
 
-- mm.{c,h}: This file contains the implementation of malloc, free, realloc functions
+- mm.{c,h}: This file contains the implementation of `malloc()`, `free()`, `realloc()` functions
 
 - mdriver.c: The malloc driver that tests the mm.c file
 	
